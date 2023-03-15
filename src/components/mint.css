@@ -1,0 +1,126 @@
+.mintContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mintProperties h1 {
+    font-size: 40px;
+    text-align: start;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.mintProperties p {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #353535;
+    font-weight: 300;
+}
+
+.SCANQRCODE-content {
+    margin: 0 30px;
+}
+
+.SCANQRCODE {
+    width: 350px;
+    height: 450px;
+}
+
+.SCANQRCODE img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.listView {
+    display: flex;
+    height: 350px;
+    overflow: scroll;
+}
+
+.listView ul {
+
+}
+
+.listView ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.textStyle {
+    text-align: end;
+    padding-right: 10px;
+    color: #353535;
+}
+
+.LULU-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.LULU-description-heading {
+
+}
+
+.LULU-description-heading h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.LULU-description-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.LULU-description-paragraph p {
+    width: 400px;
+    color: #353535;
+}
+
+.LULU-description-button a {
+    background-color: #626161;
+    color: #fff;
+    border-radius: 8px;
+    outline: none;
+    padding: 13px 38px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .mintContent {
+        flex-direction: column;
+    }
+    .mintProperties h1 {
+        text-align: center;
+    }
+    .listView {
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .LULU-description-heading h2 {
+        text-align: center;
+    }
+    .LULU-description-heading h3 {
+        text-align: center;
+    }
+    .LULU-description-button {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .LULU-description-paragraph p {
+        width: auto;
+        padding: 0 20px;
+    }
+    .LULU-description-paragraph span {
+        padding: 20px;
+        padding-bottom: 5px;
+    }
+}

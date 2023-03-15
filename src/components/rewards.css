@@ -1,0 +1,261 @@
+.rewardWallet {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+}
+
+.scorArea {
+    width: 45%;
+}
+
+.scoreTitle {
+    display: flex;
+    width: 100%;
+}
+
+.scoreTitle span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.scoreTitle-heading1 {
+    width: 70%;
+    padding-left: 25px;
+}
+
+.figureBox {
+    display: flex;
+    padding: 30px 20px;
+    border: 1px solid #000;
+    overflow: scroll;
+    height: 450px;
+    width: 500px;
+}
+
+.leaderBoard {
+    width: 78%;
+}
+
+.leaderBoard p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.score p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.walletContainer {
+    display: flex;
+    width: 55%;
+}
+
+.walletContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.walletAdress {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.walletHeading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.walletNumber {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.walletScore {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.walletButton {
+    padding-top: 18px;
+}
+
+.walletButton1 {
+    border: 1.5px solid #000;
+    padding: 5px 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.walletButton2 {
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.walletConnection {
+}
+
+.walletConnection p {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 18px;
+    margin-bottom: 8px;
+}
+
+.walletConnectionButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.walletConnectionButton a {
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    width: 115px;
+    padding: 3px 10px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.leaderSection {
+    margin-top: 80px;
+    padding-left: 100px;
+}
+
+.leaderSection h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.leaderSection p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.leaderSection ul {
+    margin: 10px 0;
+    height: 92px;
+    overflow-y: scroll;
+}
+
+.leaderSection ul li {
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.leaderButton {
+    margin-top: 20px;
+}
+
+.leaderButton p {
+    margin-bottom: 20px;
+}
+
+.leaderButton a {
+    font-size: 22px;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 200px;
+    padding: 7px 3px;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .leaderSection {
+        padding-left: 10px;
+    }
+    .walletAdress {
+        margin-left: 30px;
+    }
+    .walletConnection {
+        margin-left: 30px;
+    }
+    .figureBox {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .figureBox {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .scoreTitle {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rewardWallet {
+        flex-direction: column;
+    }
+    .walletContainer {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .scorArea {
+        width: 100%;
+    }
+    .figureBox {
+        width: 100%;
+        height: 300px;
+    }
+    .scoreTitle {
+        justify-content: space-around;
+    }
+    .score {
+        margin-right: 50px;
+    }
+    .walletConnection {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .walletContainer {
+        flex-direction: column;
+    }
+    .walletAdress {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .walletConnection {
+        margin-left: 10px;
+    }
+    .leaderSection {
+        margin-top: 40px;
+    }
+    .score {
+        margin-right: 0;
+    }
+    .scoreTitle-heading1 {
+        padding-left: 0px;
+    }
+    .leaderBoard p {
+        font-size: 15px;
+    }
+    .score p {
+        font-size: 15px;
+    }
+    .figureBox {
+        height: 200px;
+    }
+}
